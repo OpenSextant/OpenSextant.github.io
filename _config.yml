@@ -2,8 +2,8 @@
 # Site settings
 title:        The OpenSextant Project
 tagline:      A geospatial stuff project
-description:  A GitHub project for geotagging and other geospatial capabilities
-logo: "https://avatars.githubusercontent.com/u/4237411"
+description:  geospatial capabilities like geotagging nd entity extraction
+logo: "sextant.png"
 
 # About/contact
 author:  The OpenSextant Team
@@ -15,6 +15,3 @@ url: "http://opensextant.github.io"
 markdown: kramdown
 kramdown:
    auto_ids: true
-
-gems:
-  - jekyll-seo-tag
