@@ -1,0 +1,17 @@
+
+# Site settings
+title:        The OpenSextant Project
+tagline:      A geospatial stuff project
+
+
+# About/contact
+author:
+  name:       The OpenSextant Team
+
+baseurl:      ""
+url: "http://opensextant.github.io"
+
+#Build settings
+markdown: kramdown
+kramdown:
+   auto_ids: true
