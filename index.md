@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-# Projects
+## Projects
   
 **[OpenSextantToolbox](https://github.com/OpenSextant/OpenSextantToolbox)** - A geotagger and entity extractor
 
