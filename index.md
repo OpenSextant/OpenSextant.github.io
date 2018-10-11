@@ -5,10 +5,9 @@ layout: default
 ## Info Extraction Projects
 **[OpenSextantToolbox](https://github.com/OpenSextant/OpenSextantToolbox)** - A geotagger and entity extractor employing GATE
 
-**[Xponents](https://opensextant.github.io/Xponents)** - API for geotagging and related pattern-based information extraction, making use of Tika for content ingest and GISCore (below) for GIS file output. 
-A toolkit that excels in working with unstructured, multi-lingual texts.
+**[Xponents](https://opensextant.github.io/Xponents)** - Geotagging APIs to work with gazetteers and multilingual information extraction for geography, date/time, patterns. This suite makes use of Tika for rendering inputs and GISCore (below) for output formats.
 
-**[SolrTextTagger](https://github.com/OpenSextant/SolrTextTagger)** - A text tagger based on Lucene/Solr
+**[SolrTextTagger](https://github.com/OpenSextant/SolrTextTagger)** - A text tagger based on Lucene/Solr. (As of Solr 7.4 this tagger tool is a formal request handler in Solr)
 
 **[Gazetteer](http://opensextant.github.io/Gazetteer/)** - Pipeline project to render world-wide "geo names" data into gazetteers used by these projects
 
