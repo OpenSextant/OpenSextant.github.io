@@ -2,7 +2,9 @@
 layout: default
 ---
 
-## Info Extraction Projects
+## Info Extraction & Geo-inferencing Projects
+
+**keywords:** geoparsing, geocoding, entity extraction, NER, REGEX 
 
 **[Xponents](https://opensextant.github.io/Xponents)** - Geotagging APIs to work with gazetteers and multilingual extraction of geography, date/time, patterns. A pre-built Docker microservice is available with a complete operational gazetteer and geotagger.  Example applications demonstrate the use of Tika for rendering inputs and GISCore (below) for output formats to demonstrate end-to-end solutions.  The geotagger features the Solr TextTagger.  Last updated 2022-June.
 
@@ -25,7 +27,9 @@ layout: default
 
 * **[opensextant](https://github.com/OpenSextant/opensextant)** - (Retired) The original OpenSextant project. 
  - NOTE: Xponents is the currently maintained geotagger solution.
-**[Gazetteer](http://opensextant.github.io/Gazetteer/)** - (Retired) Pipeline project to render world-wide "geo names" data into gazetteers used by these projects
+
+* **[Gazetteer](http://opensextant.github.io/Gazetteer/)** - (Retired) Pipeline project to render world-wide "geo names" data into gazetteers used by these projects
  - NOTE: This Gazetteer required Pentaho 6 or earlier and was stuck to Oracle JDK 8.   Xponents internal gazetteer is current and yields a flexible SQLite intermediate and complete worldwide gazetteer
-**[SolrTextTagger](https://github.com/OpenSextant/SolrTextTagger)** - (Retired) A text tagger based on Lucene/Solr. 
+
+* **[SolrTextTagger](https://github.com/OpenSextant/SolrTextTagger)** - (Retired) A text tagger based on Lucene/Solr. 
  - NOTE: As of Solr 7.4 this tagger plugin was migrated to Apache Solr as a formal request handler
